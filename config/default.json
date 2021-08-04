@@ -1,0 +1,4 @@
+{
+    "CITY_API_ENDPOINT" : "https://data.lacity.org/resource/trxm-jn3c.json",
+    "DATEFORMAT" : "YYYY-MM-DDTHH:mm:ss"
+}
