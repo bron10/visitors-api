@@ -22,16 +22,16 @@ Make sure you keep up the api keys in config according to environment like `deve
 GET: http://localhost:3000/api/visitors?date=1404198000
 ```
 ##### Given:
-● A date in milliseconds.
-● (Optional) museum to ignore [Todo]
+1. A date in milliseconds.
+2. (Optional) museum to ignore [Todo]
 
 ##### It will return:
-● The month of the search
-● The year of the search
-● The total visitors for the month, not counting the ignored museum
-● The museum with the highest number of visitors, not counting the ignored museum
-● The museum with the lowest number of visitors, not counting the ignored museum
-● The ignored museum.
+1. The month of the search
+2. The year of the search
+3. The total visitors for the month, not counting the ignored museum
+4. The museum with the highest number of visitors, not counting the ignored museum
+5. The museum with the lowest number of visitors, not counting the ignored museum
+6. The ignored museum.[Todo]
 
 ## Query builder
 Uses custom query builder service to create a SoQl query that query specific results from museum api.
@@ -59,7 +59,7 @@ The query is build in a hook. A `pre-handler` hook works like a middleware.
 Once we build the query, assign it to request so that the controller/handler will do the third party request and format the response.
 
 ## Unit tests
-![Alt text](tests.png?raw=true "Title")
+![Alt text](test.png?raw=true "Title")
 Please refer `/tests` to get all the options currently implemented. 
 
 ## Example screenshot
