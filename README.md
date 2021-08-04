@@ -60,7 +60,9 @@ Once we build the query, assign it to request so that the controller/handler wil
 
 ## Unit tests
 ![Alt text](test.png?raw=true "Title")
-Current coverage : `96%`. Please refer `/tests` to get all the options currently implemented. 
+
+Current coverage : `96%`
+Please refer `/tests` to get all the options currently implemented. 
 
 ## Example screenshot
 ![Alt text](example.gif?raw=true "Title")
